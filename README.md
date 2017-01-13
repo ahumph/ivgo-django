@@ -68,3 +68,19 @@
     '1.10.5'
     >>>
     ```
+
+6. Heroku setup
+
+    Create an account, and Install Heroku CLI tools from [http://heroku.com].
+    
+    Login:
+    `$ heroku login`
+    Run the app locally:
+    `$ heroku local web`
+    It can now be accessed at http://localhost:5000.
+    
+    To deploy to Heroku:
+    ```
+    $ git push heroku master
+    $ heroku open
+    ```
