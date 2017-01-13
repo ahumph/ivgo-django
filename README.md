@@ -71,6 +71,9 @@
 
 6. Heroku setup
 
+    Add the remote:
+    `$ git add remote heroku https://git.heroku.com/damp-tor-19528.git`
+    
     Create an account, and Install Heroku CLI tools from [http://heroku.com].
     
     Login:
